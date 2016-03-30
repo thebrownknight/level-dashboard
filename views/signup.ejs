@@ -116,9 +116,9 @@
         <div class="control-group form-group col-md-6">
           <label>Re-enter your password</label>
           <!-- Added the compareTo directive that compares the passwords -->
-          <input type="password" class="form-control" placeholder="enter your password one more time" name="confirmation" ng-model="signupForm.confirmation" required>
+          <input type="password" class="form-control" placeholder="enter password again" name="confirmation" ng-model="signupForm.confirmPassword" required>
           <span class="help-block has-error" ng-if="signup.confirmation.$dirty">
-            <span ng-show="signup.confirmation.$error.compareTo">Passwords must match.</span>
+            <span ng-show="signup.password.$error.compareTo">Passwords must match.</span>
             <span ng-show="signup.confirmation.$error.required">Confirmation password is required.</span>
           </span>
         </div>
