@@ -28,6 +28,8 @@
     "grunt-sync": "0.2.4",
     "include-all": "~0.1.6",
     "jquery": "^2.2.2",
+    "machinepack-gravatar": "^1.2.0",
+    "machinepack-passwords": "^2.3.0",
     "q": "^1.4.1",
     "rc": "1.0.1",
     "sails": "~0.12.1",
