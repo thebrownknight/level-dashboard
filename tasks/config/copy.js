@@ -41,7 +41,7 @@ module.exports = function(grunt) {
     jsDeps: {
       files: [{
         '.tmp/public/js/dependencies/angular.js': './node_modules/angular/angular.js',
-        '.tmp/public/js/dependencies/angular-toastr.js': './node_modules/angular-toastr/dist/angular-toastr.js'
+        '.tmp/public/js/dependencies/angular-toastr.js': './node_modules/angular-toastr/dist/angular-toastr.tpls.js'
       }]
     }
   });
